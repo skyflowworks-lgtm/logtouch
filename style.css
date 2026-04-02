@@ -54,8 +54,8 @@ a {
 }
 
 .external-link:hover {
-    color: #fff;
-    border-bottom-color: #fff;
+    color: var(--accent-color-dark);
+    border-bottom-color: var(--accent-color-dark);
 }
 
 /* Top Navigation */
@@ -377,6 +377,10 @@ footer {
 .copyright {
     color: var(--text-secondary);
     font-size: 0.95rem;
+}
+
+.footer-links {
+    margin-bottom: 8px;
 }
 
 /* Animations Scroll / Fade-up */
